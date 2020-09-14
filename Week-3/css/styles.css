@@ -1,0 +1,88 @@
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border: 0px;
+	position: relative;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+	text-decoration: none;
+}
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: blue;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  clear: left;
+}
+#collapsable-nav{
+	padding-bottom: 0;
+}
+#nav-list{
+	margin-top: 15px;
+}
+#nav-list a{
+	color: red;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: white;
+}
+	
+#nav-list li{
+	text-align: center;
+	margin-bottom: 0;
+}
+#nav-list:nth-child(2){
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.collapsed
+{
+	background-color: white;
+}
+/*Header is finished*/
+h2
+{
+	text-align: center;
+	font-weight: bold;
+}
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#top{
+
+}
