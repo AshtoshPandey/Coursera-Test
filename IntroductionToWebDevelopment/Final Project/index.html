@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+  <head>
+   <title>Final Project</title>
+   <link rel="stylesheet" href="styles.css">
+   <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+     <h1>Sign-Up Form</h1>
+     <div id="Text">
+       <span>The reason for choosing the sign-up form is that no matter which service we use, we're all reliant<br>
+	   on first being a part of the service. The form takes various entities as inputs.</span><br><br>
+     </div>
+	 <img src="HTML.jpeg">
+	 <form action="submitted.html" onclick="return formvalidation()">
+	    First Name: <input type="text" name="FName" id="FName" onblur="validateNM();"/>&nbsp;<span id="namev"></span><br>
+		Last Name: <input id="LName" type="text" name="LName" onblur="validateNML();"></input>&nbsp;<span id="namevl"></span><br>
+		D.O.B.: <input type="date" name="DOB"></input><br>
+		Mobile No.: <input type="text" id="Mob" name="Mob" placeholder="xxx-xxx-xxxx" onblur="validateNo();"></input><span id="mobv"></span><br>
+		E-Mail: <input type="email" name="Mail"></input><br>
+		Password: <input id="p1" type="password" name="Pass1" onclick="pmsg();"></input>&nbsp;<span id="pp"></span></br>
+		Confirm Password: <input id="p2" type="password" name="Pass2" onblur="validp();"></input>&nbsp;<span id="match"></span></br>
+		Languages Known:<br> <input type="checkbox" name="Lang1" value="English">I Know English</input></br>
+		<input type="checkbox" name="Lang2" value="French">I Know French</input></br>
+		<input type="checkbox" name="Lang3" value="Spanish">I Know Spanish</input></br>
+	 </form>
+	 <button>Try Me</button>
+	 <div class="app"><br><br>The form implements 4 validations, and a dynamic message, triggered by Onblur(), and Onclick().<br>
+	    It also uses CSS to select tags, IDs, and classes, which can be seen in the css file.
+		<br><a href="styles.css">CSS File</a><br>
+		<a href="script.js">JS File</a></br>
+	 </div>
+  </body>
+</html>
